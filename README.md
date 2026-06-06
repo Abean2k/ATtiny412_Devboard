@@ -64,5 +64,5 @@ All components are designed to be hand solderable. Note: UPDI pin is not broken 
 | **R2** | 1 kΩ Resistor | SMD (0805) | Current-limiting resistor for the user indicator LED |
 | **C1** | 100 nF Ceramic Capacitor | SMD (0805) | Main VCC supply line noise decoupling |
 | **D1** | User LED | SMD (0805) | Built-in general indicator connected to pin **PA3** (Digital 4) |
-| **Reg** | AP2112K-3.3 | SOT-23-5 | High-speed 3.3V Linear Regulator for stable chip voltage |
+| **U2** | AP2112K-3.3 | SOT-23-5 | High-speed 3.3V Linear Regulator for stable chip voltage |
 | **Headers**| 2.54mm Breakaway Pins | Through-Hole | Breadboard formate pin breakout rails |
