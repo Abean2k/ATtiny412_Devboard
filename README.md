@@ -1,4 +1,6 @@
 # ATtiny412_Devboard
+<img width="1134" height="788" alt="Screenshot 2026-06-04 192047" src="https://github.com/user-attachments/assets/252afbea-17c4-4183-b926-112f82b2d112" />
+
 Uses an ATtiny 412 or the 212 as the MCU for a very cheap and small dev-board. Developed alongside the USB serial to UDPI Programmer.
 
 ## SPECS:
@@ -27,7 +29,7 @@ The devboard works with both an ATtiny 412 and an ATtiny 212 in the SOT 8 form-f
 
 ## PCB:
 I made two layer PCBs for each of the two boards. I added ground pours and thicker power traces for hgiher relizablity and more compact size. The devboard user breakouts are breadboard sized and spaced. 
-All components are designed to be hand solderable. 
+All components are designed to be hand solderable. Note: UPDI pin is not broken out on devboard (SO DNC) to the other user pins as it needs to be kept clear for programming. 
 ### Devboard Schematic:
 <img width="775" height="757" alt="Screenshot 2026-06-04 162510" src="https://github.com/user-attachments/assets/09dcbfde-1d2e-4c98-898d-320b2cd44b03" />
 ### Programmer Schematic:
@@ -39,10 +41,3 @@ All components are designed to be hand solderable.
 
 ### BOM:
 
-
-
-
-
-
-
-Note: UPDI pin is not broken out to the other user pins as it needs to be kept clear for programming. 
