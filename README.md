@@ -30,14 +30,18 @@ The devboard works with both an ATtiny 412 and an ATtiny 212 in the SOT 8 form-f
 ## PCB:
 I made two layer PCBs for each of the two boards. I added ground pours and thicker power traces for hgiher relizablity and more compact size. The devboard user breakouts are breadboard sized and spaced. 
 All components are designed to be hand solderable. Note: UPDI pin is not broken out on devboard (SO DNC) to the other user pins as it needs to be kept clear for programming. 
+
 ### Devboard Schematic:
 <img width="775" height="757" alt="Screenshot 2026-06-04 162510" src="https://github.com/user-attachments/assets/09dcbfde-1d2e-4c98-898d-320b2cd44b03" />
+
 ### Programmer Schematic:
 <img width="576" height="379" alt="Screenshot 2026-06-05 154249" src="https://github.com/user-attachments/assets/da408624-c05f-4533-a038-7760f3933117" />
+
 ### Devboard PCB:
 <img width="530" height="719" alt="Screenshot 2026-06-04 180715" src="https://github.com/user-attachments/assets/c15f35b8-841b-454a-8848-9fbdad8bd01e" />
+
 ### Programmer PCB:
 <img width="642" height="815" alt="Screenshot 2026-06-05 201658" src="https://github.com/user-attachments/assets/8a407a3b-f062-40b8-8f62-fd6df1fddcf7" />
 
-### BOM:
+## BOM:
 
