@@ -44,4 +44,25 @@ All components are designed to be hand solderable. Note: UPDI pin is not broken 
 <img width="642" height="815" alt="Screenshot 2026-06-05 201658" src="https://github.com/user-attachments/assets/8a407a3b-f062-40b8-8f62-fd6df1fddcf7" />
 
 ## BOM:
+### SerialUPDI Programmer Board
+| Component Reference | Description | Package Type | Purpose |
+| :--- | :--- | :--- | :--- |
+| **U1** | CH340N USB-to-Serial Bridge | SOIC-8 (SOP-8) | Translates computer USB commands into serial data |
+| **J2** | USB 2.0 Type-A Male Plug | SMT Edge Mount | Plugs directly into the computer's USB port |
+| **R1** | 4.7 kΩ Resistor | SMD (0805) | Junction resistor connecting TXD and RXD for single-wire UPDI |
+| **R2** | 1 kΩ Resistor | SMD (0805) | Current-limiting resistor for the Power LED indicator |
+| **C1** | 100 nF Ceramic Capacitor | SMD (0805) | Decoupling capacitor for internal V3 regulator (Pin 1) |
+| **C2** | 100 nF Ceramic Capacitor | SMD (0805) | Decoupling capacitor for VCC supply line (Pin 7) |
+| **D1** | Indicator LED | SMD (0805) | Power-on safety indicator |
 
+### ATtiny412 Student Devboard
+| Component Reference | Description | Package Type | Purpose |
+| :--- | :--- | :--- | :--- |
+| **U1** | ATtiny412 Microcontroller | SOIC-8 (SOP-8) | Main programmable brain (4KB Flash, 256B SRAM) |
+| **J1** | 6-Pin USB-C Receptacle | SMT (Single Row Pins) | Supplies power to the board from standard USB cables |
+| **R1** | 10 kΩ Resistor | SMD (0805) | UPDI line pull-up|
+| **R2** | 1 kΩ Resistor | SMD (0805) | Current-limiting resistor for the user indicator LED |
+| **C1** | 100 nF Ceramic Capacitor | SMD (0805) | Main VCC supply line noise decoupling |
+| **D1** | User LED | SMD (0805) | Built-in general indicator connected to pin **PA3** (Digital 4) |
+| **Reg** | AP2112K-3.3 | SOT-23-5 | High-speed 3.3V Linear Regulator for stable chip voltage |
+| **Headers**| 2.54mm Breakaway Pins | Through-Hole | Breadboard formate pin breakout rails |
